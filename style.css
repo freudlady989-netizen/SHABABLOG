@@ -331,3 +331,309 @@ blockquote {
 .social-links a {
     margin: 0 10px;
 }
+```css
+/* ===============================
+   LIGHT MODE TEXT FIX
+   =============================== */
+
+.light-mode {
+    background: #ffffff;
+    color: #111111;
+}
+
+/* Header */
+.light-mode header {
+    background: #f2f2f2;
+    color: #111111;
+}
+
+.light-mode header h1 {
+    background: linear-gradient(90deg, #9b7a00, #c49b00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Navigation */
+.light-mode nav ul li a {
+    color: #222222;
+}
+
+.light-mode nav ul li a:hover {
+    color: #9b7a00;
+}
+
+/* Hero */
+.light-mode .hero {
+    color: #111111;
+}
+
+.light-mode .hero h2,
+.light-mode .hero p {
+    color: #111111;
+}
+
+/* Author Section */
+.light-mode .author-box {
+    background: #f3f3f3;
+    color: #111111;
+}
+
+/* Blog Cards */
+.light-mode .blog-card {
+    background: #f4f4f4;
+    color: #111111;
+    border: 1px solid #dddddd;
+}
+
+.light-mode .blog-card h2,
+.light-mode .blog-card p {
+    color: #111111;
+}
+
+/* Contact */
+.light-mode .contact-section {
+    background: #f4f4f4;
+    color: #111111;
+}
+
+.light-mode .contact-section h2 {
+    color: #9b7a00;
+}
+
+.light-mode .contact-section a {
+    color: #222222;
+}
+
+/* Article Page */
+.light-mode .article-section {
+    background: #f4f4f4;
+    color: #111111;
+}
+
+.light-mode .article-section h2,
+.light-mode .article-section h3,
+.light-mode .article-section p {
+    color: #111111;
+}
+
+/* About Page */
+.light-mode .about-section {
+    background: #f4f4f4;
+    color: #111111;
+}
+
+.light-mode .about-section h2,
+.light-mode .about-section p {
+    color: #111111;
+}
+
+/* Blockquote */
+.light-mode blockquote {
+    background: #eeeeee;
+    color: #222222;
+    border-left-color: #9b7a00;
+}
+
+/* Footer */
+.light-mode footer {
+    background: #eeeeee;
+    color: #111111;
+}
+
+.light-mode footer .footer-content p,
+.light-mode footer .footer-content h3 {
+    color: #222222;
+}
+```
+
+```css
+/* =====================================
+   FINAL LIGHT MODE FIX
+   ===================================== */
+
+/* HERO - LIGHT MODE */
+.light-mode .hero {
+    background:
+        linear-gradient(rgba(245, 240, 255, 0.90), rgba(245, 240, 255, 0.90)),
+        url("https://images.unsplash.com/photo-1589829545856-d10d557cf95f");
+    background-size: cover;
+    background-position: center;
+    color: #111111;
+}
+
+.light-mode .hero h2,
+.light-mode .hero p {
+    color: #111111;
+    text-shadow: none;
+}
+
+
+/* CONTACT - LIGHT MODE */
+.light-mode .contact-section {
+    background: #f4f1f8;
+    color: #111111;
+}
+
+.light-mode .contact-section h2 {
+    color: #9b7a00;
+}
+
+.light-mode .contact-section p {
+    color: #222222;
+}
+
+.light-mode .contact-section a {
+    color: #222222;
+}
+
+.light-mode .contact-section a:hover {
+    color: #9b7a00;
+}
+
+
+/* INSTAGRAM - LIGHT MODE */
+.light-mode .social-links a {
+    color: #222222;
+}
+
+.light-mode .social-links a:hover {
+    color: #9b7a00;
+}
+
+
+/* FOOTER - LIGHT MODE */
+.light-mode footer {
+    background: #eeeeee;
+    color: #111111;
+}
+
+.light-mode footer h3,
+.light-mode footer p {
+    color: #222222;
+}
+```
+
+/* =================================
+   FINAL LIGHT MODE TEXT FIX
+   ================================= */
+
+.light-mode {
+    background: #ffffff;
+    color: #111111;
+}
+
+/* Header */
+
+.light-mode header {
+    background: #f2f2f2;
+    color: #111111;
+}
+
+.light-mode header h1 {
+    background: linear-gradient(90deg, #9b7a00, #c49b00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.light-mode nav ul li a {
+    color: #222222 !important;
+}
+
+/* Hero */
+
+.light-mode .hero {
+    background: linear-gradient(135deg, #e0eafc, #cfdef3);
+    color: #111111;
+}
+
+.light-mode .hero h2,
+.light-mode .hero p {
+    color: #111111 !important;
+    text-shadow: none;
+}
+
+/* Author */
+
+.light-mode .author-box {
+    background: #f4f4f4;
+    color: #111111;
+}
+
+.light-mode .author-box h2,
+.light-mode .author-box p {
+    color: #111111 !important;
+}
+
+/* Blog Cards */
+
+.light-mode .blog-card {
+    background: #f4f4f4;
+    color: #111111;
+    border: 1px solid #dddddd;
+}
+
+.light-mode .blog-card h2,
+.light-mode .blog-card p {
+    color: #111111 !important;
+}
+
+/* About Page */
+
+.light-mode .about-section {
+    background: #f4f4f4;
+    color: #111111;
+}
+
+.light-mode .about-section h2,
+.light-mode .about-section p {
+    color: #111111 !important;
+}
+
+/* Article Page */
+
+.light-mode .article-section {
+    background: #f4f4f4;
+    color: #111111;
+}
+
+.light-mode .article-section h2,
+.light-mode .article-section h3,
+.light-mode .article-section p,
+.light-mode .article-meta {
+    color: #111111 !important;
+}
+
+.light-mode blockquote {
+    background: #eeeeee;
+    color: #222222 !important;
+    border-left-color: #9b7a00;
+}
+
+/* Contact */
+
+.light-mode .contact-section {
+    background: #f4f4f4;
+    color: #111111;
+}
+
+.light-mode .contact-section h2 {
+    color: #9b7a00 !important;
+}
+
+.light-mode .contact-section p,
+.light-mode .contact-section a,
+.light-mode .social-links a {
+    color: #222222 !important;
+}
+
+/* Footer */
+
+.light-mode footer {
+    background: #eeeeee;
+    color: #111111;
+}
+
+.light-mode footer h3,
+.light-mode footer p {
+    color: #222222 !important;
+}
